@@ -46,6 +46,8 @@ export default function App() {
             name={user.name}
             role={user.role}
             status={user.status}
+            isVerified={user.isVerified}
+            bio={user.bio}
           />
         ))}
       </div>
